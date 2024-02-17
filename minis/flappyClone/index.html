@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Flappy Bird Clone</title>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      UnityLoader.instantiate("unityContainer", "Build/webgl.json");
+    </script>
+  </head>
+  <body>
+    <div id="container" style="position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+    <div id="unityContainer" style="width: 360px; height: 640px;"></div>
+    <div id="information" style="font-family: Verdana, sans-serif; font-size: 11px; text-align: right; user-select: none; margin-top: 10px; line-height: 16px;">
+      Jump the bird by clicking your mouse. Avoid ground and pipes.<br />
+      A Flappy Bird clone written with Unity.<br />
+      You can find the code at <a href="https://github.com/tolgakurt/showcase/tree/master/flappyClone" target="_blank">GitHub</a>
+    </div>
+    </div>
+  </body>
+</html>
